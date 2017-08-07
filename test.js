@@ -1,12 +1,12 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
 
-import tempLate from "./"
+import thrush from "./"
 
-test(({same, end}) => {
-  same(
-    tempLate(true),
-    false
+test(({equal, end}) => {
+  equal(
+    thrush(0)((value) => `${value}`),
+    "0"
   )
 
   end()
