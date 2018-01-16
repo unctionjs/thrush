@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> any -> (any -> any) -> any
+> any => (any => any) => any
 
 One of the fantasy birds: it takes a value, a function, and then applies that value to as the first argument to that function.
 
