@@ -1,5 +1,5 @@
-export default function thrush (value: any): Function {
-  return function thrushUnction (unction: any => any): any {
-    return unction(value)
-  }
+export default function thrush(value) {
+  return function thrushUnction(unction) {
+    return unction(value);
+  };
 }
