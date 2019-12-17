@@ -1,6 +1,6 @@
 {
   "name": "@unction/thrush",
-  "version": "4.2.3",
+  "version": "4.2.4",
   "description": "One of the fantasy birds: it takes a value, a function, and then applies that value to as the first argument to that function.",
   "keywords": [
     "unction",
@@ -58,8 +58,7 @@
     "browser.js",
     "types/*.d.ts"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "module": "module.js",
   "browser": "browser.js",
   "types": "types.d.ts",
